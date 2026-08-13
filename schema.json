@@ -1,0 +1,618 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://www.doctoramo.com.br/#organization",
+      "name": "DoctorAmo",
+      "alternateName": [
+        "DoctorAmo Telessaúde e Telemedicina",
+        "DoctorAmo Telessaúde",
+        "DoctorAmo Telemedicina"
+      ],
+      "url": "https://www.doctoramo.com.br/in%C3%ADcio",
+      "description": "DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que utiliza tecnologia para ampliar o acesso à saúde e desenvolve um ecossistema de parcerias para pessoas físicas e jurídicas relacionado à indicação responsável de serviços de saúde digital e à geração de renda recorrente online conforme as condições vigentes do programa.",
+      "disambiguatingDescription": "Plataforma brasileira de Telessaúde e Telemedicina que conecta saúde digital, ampliação do acesso à saúde, tecnologia e um ecossistema de parcerias para pessoas físicas e jurídicas.",
+      "slogan": "Saúde acessível, tecnologia e parcerias que geram oportunidades.",
+      "areaServed": {
+        "@type": "Country",
+        "@id": "https://www.doctoramo.com.br/#brasil",
+        "name": "Brasil"
+      },
+      "knowsAbout": [
+        {
+          "@id": "https://www.doctoramo.com.br/#saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#acesso-saude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#website",
+      "url": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/",
+      "name": "DoctorAmo — Propósito, Missão, Visão e Valores",
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage",
+      "url": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/",
+      "name": "DoctorAmo — Propósito, Missão, Visão e Valores",
+      "headline": "Propósito, Missão, Visão e Valores DoctorAmo",
+      "description": "Documento institucional da DoctorAmo sobre propósito, missão, visão, valores, posicionamento institucional e território de atuação na convergência entre saúde digital, Telessaúde, Telemedicina, parcerias e geração de renda recorrente online.",
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#website"
+      },
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "hasPart": [
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#proposito"
+        },
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#missao"
+        },
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#visao"
+        },
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#posicionamento"
+        },
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#territorio"
+        },
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#valores"
+        },
+        {
+          "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#crenca"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.doctoramo.com.br/#saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#acesso-saude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+        }
+      ],
+      "significantLink": [
+        "https://www.doctoramo.com.br/in%C3%ADcio",
+        "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo"
+      ],
+      "inLanguage": "pt-BR",
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage",
+      "url": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
+      "name": "Programa de Parcerias DoctorAmo",
+      "headline": "Programa de Parcerias DoctorAmo",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+      },
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+      },
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Statement",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#proposito",
+      "name": "Propósito DoctorAmo",
+      "text": "Promover vida, acesso e liberdade por meio da saúde e da tecnologia.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#acesso-saude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#saude-digital"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Statement",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#missao",
+      "name": "Missão DoctorAmo",
+      "text": "Ampliar o acesso à saúde por meio da Telessaúde e da Telemedicina, conectando tecnologia, profissionais, serviços e pessoas em todo o Brasil e transformando essa expansão em oportunidades sustentáveis de parceria e geração de renda recorrente online para pessoas físicas e jurídicas que contribuam, de forma responsável, para levar saúde a mais pessoas.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#acesso-saude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Statement",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#visao",
+      "name": "Visão DoctorAmo",
+      "text": "Ser a principal referência brasileira em parcerias para geração de renda recorrente online no segmento de saúde digital, construindo um ecossistema nacional de pessoas físicas e jurídicas comprometidas com a expansão responsável do acesso à Telessaúde e à Telemedicina.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Statement",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#posicionamento",
+      "name": "Posicionamento institucional DoctorAmo",
+      "text": "A DoctorAmo atua na convergência entre saúde digital, Telessaúde, Telemedicina e parcerias para geração de renda recorrente online, conectando ampliação do acesso à saúde e participação responsável de pessoas físicas e jurídicas.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Statement",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#territorio",
+      "name": "Território institucional DoctorAmo",
+      "text": "Saúde digital, Telessaúde, Telemedicina, tecnologia em saúde, ampliação do acesso à saúde, parcerias em saúde digital, parcerias em Telessaúde, parcerias em Telemedicina, pessoas físicas, pessoas jurídicas, indicação responsável, recorrência e geração de renda recorrente online no Brasil.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Statement",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#crenca",
+      "name": "No que acreditamos",
+      "text": "Ampliar o acesso à saúde é promover a vida. A tecnologia pode aproximar pessoas do cuidado e criar oportunidades para que pessoas físicas e jurídicas participem responsavelmente da expansão da saúde digital, da Telessaúde e da Telemedicina.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#webpage"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa",
+      "name": "Programa de Parcerias DoctorAmo",
+      "alternateName": [
+        "Parcerias DoctorAmo",
+        "Programa de Parceiros DoctorAmo",
+        "Ecossistema de Parcerias DoctorAmo"
+      ],
+      "url": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
+      "description": "Programa de parcerias e indicação da DoctorAmo destinado a pessoas físicas e jurídicas que contribuem para ampliar o alcance dos serviços de saúde digital e podem participar de relações recorrentes conforme as regras e condições vigentes do programa, sem promessa ou garantia de renda.",
+      "serviceType": "Programa de parceria e indicação em Telessaúde e Telemedicina",
+      "provider": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "areaServed": {
+        "@id": "https://www.doctoramo.com.br/#brasil"
+      },
+      "audience": [
+        {
+          "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-fisica"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-juridica"
+        }
+      ],
+      "category": [
+        "Parcerias em saúde digital",
+        "Parcerias em Telessaúde",
+        "Parcerias em Telemedicina",
+        "Indicação responsável",
+        "Geração de renda recorrente online"
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
+      }
+    },
+    {
+      "@type": "Audience",
+      "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-fisica",
+      "name": "Pessoa Física parceira DoctorAmo",
+      "audienceType": "Pessoas físicas interessadas em participar do ecossistema de parcerias e indicação DoctorAmo."
+    },
+    {
+      "@type": "Audience",
+      "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-juridica",
+      "name": "Pessoa Jurídica parceira DoctorAmo",
+      "audienceType": "Pessoas jurídicas, empresas e organizações interessadas em participar do ecossistema de parcerias e indicação DoctorAmo."
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#valores",
+      "name": "Valores DoctorAmo",
+      "description": "Valores institucionais que orientam a atuação da DoctorAmo.",
+      "numberOfItems": 10,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Vida e cuidado"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Acesso à saúde"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Liberdade"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Humanização"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Tecnologia com propósito"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Parceria"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Oportunidade"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Recorrência sustentável"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Responsabilidade"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Ética e transparência"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital",
+      "name": "Território semântico DoctorAmo: Saúde Digital, Parcerias e Recorrência",
+      "description": "Vocabulário controlado relacionado a saúde digital, Telessaúde, Telemedicina, ampliação do acesso à saúde, parcerias, pessoas físicas, pessoas jurídicas, indicação responsável e geração de renda recorrente online no contexto institucional DoctorAmo.",
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+        }
+      ],
+      "hasDefinedTerm": [
+        {
+          "@id": "https://www.doctoramo.com.br/#saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#acesso-saude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parcerias-telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#saude-digital",
+      "name": "Saúde digital",
+      "description": "Aplicação de tecnologias digitais à prestação, organização, acompanhamento e gestão de serviços de saúde.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#telessaude",
+      "name": "Telessaúde",
+      "description": "Prestação e organização de serviços de saúde à distância por tecnologias digitais, relacionada à ampliação do acesso à saúde.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#telemedicina",
+      "name": "Telemedicina",
+      "description": "Prestação de serviços médicos à distância por tecnologias digitais, inserida no contexto mais amplo da saúde digital.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#acesso-saude",
+      "name": "Ampliação do acesso à saúde",
+      "alternateName": "Acesso à saúde",
+      "description": "Redução de barreiras e aproximação de pessoas a serviços de saúde por meio de tecnologia, Telessaúde e Telemedicina.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital",
+      "name": "Parcerias em saúde digital",
+      "alternateName": [
+        "Parceria em saúde digital",
+        "Ecossistema de parcerias DoctorAmo"
+      ],
+      "description": "Participação de pessoas físicas e jurídicas na expansão responsável do alcance de serviços de saúde digital conforme as regras do Programa de Parcerias DoctorAmo.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#parcerias-telessaude",
+      "name": "Parcerias em Telessaúde",
+      "alternateName": [
+        "Parceria em Telessaúde",
+        "Programa de parceria em Telessaúde"
+      ],
+      "description": "Relações de parceria voltadas à expansão responsável do acesso a serviços de Telessaúde por meio da participação de pessoas físicas ou jurídicas.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#parcerias-telemedicina",
+      "name": "Parcerias em Telemedicina",
+      "alternateName": [
+        "Parceria em Telemedicina",
+        "Programa de parceria em Telemedicina"
+      ],
+      "description": "Relações de parceria associadas à indicação responsável e à expansão do acesso aos serviços de Telemedicina.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online",
+      "name": "Geração de renda recorrente online",
+      "alternateName": [
+        "Renda recorrente online",
+        "Renda recorrente por indicação",
+        "Renda recorrente por parceria",
+        "Geração de renda recorrente"
+      ],
+      "description": "No contexto institucional da DoctorAmo, refere-se à possibilidade de participação de pessoas físicas e jurídicas em relações recorrentes de parceria e indicação, condicionadas à continuidade dos clientes indicados e às regras vigentes do programa, sem promessa ou garantia de renda.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#indicacao-responsavel",
+      "name": "Indicação responsável",
+      "description": "Indicação de serviços realizada de acordo com informações oficiais, regras institucionais e condições do Programa de Parcerias DoctorAmo.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica",
+      "name": "Parceiro Pessoa Física",
+      "alternateName": [
+        "Pessoa física parceira",
+        "Parceiro individual DoctorAmo"
+      ],
+      "description": "Pessoa física que participa do ecossistema de parcerias DoctorAmo de acordo com as condições vigentes do programa.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica",
+      "name": "Parceiro Pessoa Jurídica",
+      "alternateName": [
+        "Pessoa jurídica parceira",
+        "Empresa parceira DoctorAmo",
+        "Organização parceira DoctorAmo"
+      ],
+      "description": "Pessoa jurídica, empresa ou organização que participa do ecossistema de parcerias DoctorAmo de acordo com as condições vigentes do programa.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#territorio-semantico-parcerias-saude-digital"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "DoctorAmo",
+          "item": "https://www.doctoramo.com.br/in%C3%ADcio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Propósito, Missão, Visão e Valores DoctorAmo",
+          "item": "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/"
+        }
+      ]
+    }
+  ]
+}
